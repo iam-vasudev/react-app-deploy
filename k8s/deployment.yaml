@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react-auth-app
-        image: iamvasu/react-auth-app:latest # TODO: Replace iamvasu
+        image: iamvasu/react-auth-app2:latest # TODO: Replace iamvasu
         imagePullPolicy: Always
         ports:
         - containerPort: 80

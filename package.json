@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "docker:build": "docker build -t iamvasu/react-auth-app:latest .",
-    "docker:push": "npm run docker:build && docker push iamvasu/react-auth-app:latest"
+    "docker:build": "docker build -t iamvasu/react-auth-app2:latest .",
+    "docker:push": "npm run docker:build && docker push iamvasu/react-auth-app2:latest"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.90.1",
