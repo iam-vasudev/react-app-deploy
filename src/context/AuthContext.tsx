@@ -42,8 +42,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
             try {
                 const keycloakAuthenticated = await keycloak.init({
-                    onLoad: 'check-sso',
-                    checkLoginIframe: false // Optional: disable iframe check if it causes issues locally
+                    // onLoad: 'check-sso', // Removed to prevent auto-redirect
+                    // checkLoginIframe: false 
                 });
 
                 if (keycloakAuthenticated) {
